@@ -1,0 +1,51 @@
+body{
+	background-image: linear-gradient(5deg, pink, transparent);
+}
+
+	.login_div1 , .login_div2
+	{
+		background: palevioletred;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+	label {
+		font-family: 'Yellowtail', cursive;
+		color: white;
+	}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+button
+{
+font-family: monospace;
+}
+h1
+{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3
+{
+	font-family:'Courier New', Courier, monospace;
+}
